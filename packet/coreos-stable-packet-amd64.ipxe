@@ -6,6 +6,6 @@ set first-boot coreos.first_boot=1
 set auto-login coreos.autologin
 set oem coreos.oem.id=packet
 set base-url http://${release}.release.core-os.net/${arch}-usr/current
-kernel ${base-url}/coreos_production_pxe.vmlinuz ${console} ${first-boot} ${auto-login} ${oem}
+kernel ${base-url}/coreos_production_pxe.vmlinuz ${console} ${first-boot}
 initrd ${base-url}/coreos_production_pxe_image.cpio.gz
 boot

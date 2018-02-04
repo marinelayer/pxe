@@ -1,5 +1,5 @@
 #!ipxe
-set release stable
+set release beta
 set arch amd64
 set base-url http://${release}.release.core-os.net/${arch}-usr/current
 kernel ${base-url}/coreos_production_pxe.vmlinuz initrd=coreos_production_pxe_image.cpio.gz coreos.first_boot=1
